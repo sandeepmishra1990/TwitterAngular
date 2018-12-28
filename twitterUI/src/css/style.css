@@ -1,0 +1,53 @@
+header{background-color: #ffffff; height: 60px;z-index:10;position:fixed; width:100%;-webkit-box-shadow: 0px 1px 3px 0px rgba(127,127,127,0.75);-moz-box-shadow: 0px 1px 3px 0px rgba(127,127,127,0.75);box-shadow: 0px 1px 3px 0px rgba(127,127,127,0.75);}
+header a, header h1, header h1 span, header p, header p span{display:inline-block;}
+header a{width:100px; height:35px;background-size: 125px!important; background-position: top -15px left 0px!important;margin-top:-10px;margin-left:25px;vertical-align:middle;}
+header h1{margin-left:50px;margin-top:7px;font-family: 'FuturaBold', Fallback, sans-serif;font-size:16px; text-transform:uppercase;color: #dd1d21;letter-spacing:0.2px;}
+header h1 span{width:45px; height:45px; background-size: 125px!important; background-position: top -10px left -34px!important;margin: 0 15px 4px 0;vertical-align:middle;}
+header p{float:right;font-family: 'FuturaMedium', Fallback, sans-serif;margin-right:0px;margin-top:7px;width:100px}
+header p span,.menu-open div.sidebar{}
+header p span{width:45px; height:45px; background-size: 125px!important; background-position: top -11px left -81px!important;margin-right:10px;vertical-align:middle;}
+
+.outer-container {overflow:hidden;position:relative;}
+.spr {background: transparent }
+.spricons {background: transparent }
+
+
+
+
+
+div.menu:hover {
+    width:200px;
+    height:32px;
+    background-color: #e0ebeb;
+    -webkit-border-radius: 0px 30px 30px 0px;
+    -moz-border-radius: 0px 30px 30px 0px;
+    border-radius: 0px 30px 30px 0px;
+    cursor:pointer;
+  }
+  
+  
+  div.menu:active,div.menu:active span {
+    width:200px;
+    height:32px;
+    background-color: pink;
+   -webkit-border-radius: 0px 20px 20px 0px;
+   -moz-border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 20px 20px 0px;
+    cursor:pointer;
+    color: red;
+    font-weight:bold;
+    opacity: 1;
+  }
+  
+  
+  div.menu{
+     width:200px;
+     height:32px;
+  }
+  
+  div span{
+     margin-left:15px;
+     color: black;
+     font-weight:bold;
+     opacity: 1;
+  }
