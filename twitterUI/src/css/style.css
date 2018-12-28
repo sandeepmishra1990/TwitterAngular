@@ -1,3 +1,33 @@
+
+/******* Start :: Global *******/
+.mandatory {
+  color: red;
+  font-size: 8px !important;
+  vertical-align: top;
+}
+
+.roundButton {
+  border-radius: 15px !important;
+}
+* *{box-sizing:border-box}
+*{outline:0!important}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,
+strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td
+{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:13px;-webkit-text-size-adjust:100%;color: #404040;font-family: 'FuturaLight', Fallback, sans-serif;letter-spacing:0.7px;}
+body{background-color: #f7f7f7; /*-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;*/}
+li{list-style: none;}
+a {text-decoration: none;}
+input{font-size:13px;}
+button,input[type='button'],input[type='submit']{cursor:pointer;}
+button,input[type='button'],input[type='submit']{background-color:rgb(26, 140, 247);background-repeat:no-repeat;padding:2px 5px 2px 5px;text-transform: uppercase;font-size:13px;font-family: 'FuturaMedium', Fallback, sans-serif;border:0;letter-spacing:0.7px;
+-webkit-box-shadow: 0px 1px 3px 0px rgba(127,127,127,0.75);-moz-box-shadow: 0px 1px 3px 0px rgba(127,127,127,0.75);box-shadow: 0px 1px 3px 0px rgba(127,127,127,0.75);min-width:50px;}
+input::-webkit-input-placeholder {color: #7f7f7f !important;font-family: 'FuturaLight', Fallback, sans-serif!important;}
+input:-moz-placeholder {color: #7f7f7f !important;font-family: 'FuturaLight', Fallback, sans-serif!important;} 
+input::-moz-placeholder {color: #7f7f7f !important;font-family: 'FuturaLight', Fallback, sans-serif!important;}
+input:-ms-input-placeholder  {color: #7f7f7f !important;font-family: 'FuturaLight', Fallback, sans-serif!important;} 
+/******* End :: Global *******/
+.outer-container {overflow:hidden;position:relative;}
+
 header{background-color: #ffffff; height: 60px;z-index:10;position:fixed; width:100%;-webkit-box-shadow: 0px 1px 3px 0px rgba(127,127,127,0.75);-moz-box-shadow: 0px 1px 3px 0px rgba(127,127,127,0.75);box-shadow: 0px 1px 3px 0px rgba(127,127,127,0.75);}
 header a, header h1, header h1 span, header p, header p span{display:inline-block;}
 header a{width:100px; height:35px;background-size: 125px!important; background-position: top -15px left 0px!important;margin-top:-10px;margin-left:25px;vertical-align:middle;}
@@ -6,14 +36,11 @@ header h1 span{width:45px; height:45px; background-size: 125px!important; backgr
 header p{float:right;font-family: 'FuturaMedium', Fallback, sans-serif;margin-right:0px;margin-top:7px;width:100px}
 header p span,.menu-open div.sidebar{}
 header p span{width:45px; height:45px; background-size: 125px!important; background-position: top -11px left -81px!important;margin-right:10px;vertical-align:middle;}
+h2{font-family: 'FuturaBold', Fallback, sans-serif;text-transform:uppercase;font-size:15px;/* overflow:hidden; */display:block;}
+h2 label, h2 button{display:inline-block;}
+h2 label{line-height:40px;font-family: 'FuturaBold', Fallback, sans-serif;text-transform:uppercase;font-size:14px;}
 
-.outer-container {overflow:hidden;position:relative;}
-.spr {background: transparent }
-.spricons {background: transparent }
-
-
-
-
+input.search {display:inline;width:300px;height:30px;}
 
 div.menu:hover {
     width:200px;

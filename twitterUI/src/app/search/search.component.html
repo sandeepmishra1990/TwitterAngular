@@ -1,11 +1,21 @@
-<div style="margin-left:25px">
-  
+<div style="margin-top:80px;margin-left:25px" class="p-grid">
+<!--   
   <div class="menu"><i class="fa fa-check" aria-hidden="true"></i><span>Inbox</span></div>
   <div class="menu"><span>Sent</span></div>
   <div class="menu"><span>Drafts</span></div>
   <div class="menu"><span>Archive</span></div>
   <div class="menu"><span>Important</span></div>
-  <div class="menu"><span>Deleted</span></div>
+  <div class="menu"><span>Deleted</span></div> -->
+
+  
+      <div class="p-col-4 ui-inputgroup">
+          <span>Twitter User ID </span>
+          <span class="ui-inputgroup-addon"><i class="fa fa-user"></i></span>
+             <input type="text" [(ngModel)]="TwitterUserId" pInputText placeholder="UserId" class="search">  
+             <button id="search-button" type="button"  ><i class="fa fa-search"></i></button> 
+      </div>
+ 
+
 
   </div>
 
